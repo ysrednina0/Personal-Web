@@ -1,0 +1,80 @@
+* {
+  /* margin: 5px; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  padding: 2rem 0;
+  /* margin: 1rem; */
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  /* font-family: 'Times New Roman', Times, serif; */
+  
+}
+
+.col2 {
+  padding-top: 45px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+}
+
+.navbar-brand{
+  font-family: 'Grenze Gotisch', sans-serif;
+  font-weight:bolder;
+  letter-spacing: 2px;
+  /* font-size: 25px; */
+}
+
+#about , #projects, #contact{
+  padding: 80px;
+  margin-top: 50px;
+}
+
+.img-portfolio {
+  width: 30vh;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.contact {
+  color: rgb(255, 255, 255);
+}
+
+.contact:hover {
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 0px 4px 4px 4px;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+}
+
+.edit-btn,
+.delete-btn {
+  text-decoration: none;
+  color: #0984e3;
+}
+
+.delete-btn {
+  color: #d63031;
+}
+
+
+.projects:hover {
+  cursor:pointer;
+  
+}
+
+label {
+  font-weight: bold;
+}
